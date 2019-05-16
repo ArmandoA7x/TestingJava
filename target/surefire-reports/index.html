@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,16 @@
                       <a href="#" panel-name="suite-tests.Testing" class="show-methods passed suite-tests.Testing"> (show)</a> <!-- show-methods passed suite-tests.Testing -->
                     </span>
                     <div class="method-list-content passed suite-tests.Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests.Testing" title="tests.Testing" hash-for-method="pruebaDos">pruebaDos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tests.Testing" title="tests.Testing" hash-for-method="pruebaTres">pruebaTres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-tests.Testing" title="tests.Testing" hash-for-method="pruebauno">pruebauno</a> <!-- method navigator-link -->
@@ -123,6 +133,20 @@
               <span class="class-name">tests.Testing</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pruebaDos">
+                  </a> <!-- pruebaDos -->
+                  <span class="method-name">pruebaDos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pruebaTres">
+                  </a> <!-- pruebaTres -->
+                  <span class="method-name">pruebaTres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="pruebauno">
@@ -183,16 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pruebauno')
+data.setCell(0, 1, 'pruebaTres')
 data.setCell(0, 2, 'tests.Testing')
-data.setCell(0, 3, 6685);
+data.setCell(0, 3, 8719);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'pruebaDos')
+data.setCell(1, 2, 'tests.Testing')
+data.setCell(1, 3, 7904);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'pruebauno')
+data.setCell(2, 2, 'tests.Testing')
+data.setCell(2, 3, 1774);
 window.suiteTableData['tests.Testing']= { tableData: data, tableDiv: 'times-div-tests.Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-tests.Testing">
               </div> <!-- times-div-tests.Testing -->
             </div> <!-- times-div -->
@@ -224,12 +256,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">pruebauno</span>
-                <span class="method-start">10923 ms</span>
+                <span class="method-name">pruebaDos</span>
+                <span class="method-start">9708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17610 ms</span>
+                <span class="method-start">17613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pruebaTres</span>
+                <span class="method-start">26280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pruebauno</span>
+                <span class="method-start">43645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45420 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
