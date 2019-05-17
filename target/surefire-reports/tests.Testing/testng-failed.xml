@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.Testing">
         <methods>
-          <include name="pruebaTres"/>
+          <include name="pruebaCantidadDeCampos"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
