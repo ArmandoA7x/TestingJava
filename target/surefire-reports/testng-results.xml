@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="tests.Testing" duration-ms="53583" started-at="2019-05-17T17:02:16Z" finished-at="2019-05-17T17:03:09Z">
+  <suite name="tests.Testing" duration-ms="61758" started-at="2019-05-20T15:06:23Z" finished-at="2019-05-20T15:07:25Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="53583" started-at="2019-05-17T17:02:16Z" finished-at="2019-05-17T17:03:09Z">
+    <test name="Command line test" duration-ms="61758" started-at="2019-05-20T15:06:23Z" finished-at="2019-05-20T15:07:25Z">
       <class name="tests.Testing">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="10916" started-at="2019-05-17T17:02:16Z" finished-at="2019-05-17T17:02:27Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="9393" started-at="2019-05-20T15:06:23Z" finished-at="2019-05-20T15:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pruebaCantidadDeCampos()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaCantidadDeCampos" duration-ms="56" started-at="2019-05-17T17:02:27Z" finished-at="2019-05-17T17:02:27Z">
+        <test-method status="PASS" signature="pruebaCantidadDeCampos()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaCantidadDeCampos" duration-ms="74" started-at="2019-05-20T15:06:33Z" finished-at="2019-05-20T15:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruebaCantidadDeCampos -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="175" started-at="2019-05-17T17:02:27Z" finished-at="2019-05-17T17:02:27Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="4289" started-at="2019-05-20T15:06:33Z" finished-at="2019-05-20T15:06:37Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="8570" started-at="2019-05-17T17:02:27Z" finished-at="2019-05-17T17:02:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="6712" started-at="2019-05-20T15:06:37Z" finished-at="2019-05-20T15:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pruebaDos()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaDos" duration-ms="4901" started-at="2019-05-17T17:02:35Z" finished-at="2019-05-17T17:02:40Z">
+        <test-method status="PASS" signature="pruebaDos()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaDos" duration-ms="5017" started-at="2019-05-20T15:06:44Z" finished-at="2019-05-20T15:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruebaDos -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="206" started-at="2019-05-17T17:02:40Z" finished-at="2019-05-17T17:02:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="1339" started-at="2019-05-20T15:06:49Z" finished-at="2019-05-20T15:06:50Z">
           <params>
             <param index="0">
               <value>
@@ -45,15 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="8569" started-at="2019-05-17T17:02:41Z" finished-at="2019-05-17T17:02:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="6616" started-at="2019-05-20T15:06:50Z" finished-at="2019-05-20T15:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pruebaTres()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaTres" duration-ms="7442" started-at="2019-05-17T17:02:49Z" finished-at="2019-05-17T17:02:57Z">
+        <test-method status="PASS" signature="pruebaTres()[pri:0, instance:tests.Testing@13969fbe]" name="pruebaTres" duration-ms="8959" started-at="2019-05-20T15:06:57Z" finished-at="2019-05-20T15:07:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruebaTres -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="2126" started-at="2019-05-17T17:02:57Z" finished-at="2019-05-17T17:02:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="1381" started-at="2019-05-20T15:07:06Z" finished-at="2019-05-20T15:07:07Z">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="8430" started-at="2019-05-17T17:02:59Z" finished-at="2019-05-17T17:03:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Testing@13969fbe]" name="setUp" is-config="true" duration-ms="6927" started-at="2019-05-20T15:07:07Z" finished-at="2019-05-20T15:07:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pruebauno()[pri:0, instance:tests.Testing@13969fbe]" name="pruebauno" duration-ms="1906" started-at="2019-05-17T17:03:07Z" finished-at="2019-05-17T17:03:09Z">
+        <test-method status="PASS" signature="pruebauno()[pri:0, instance:tests.Testing@13969fbe]" name="pruebauno" duration-ms="10534" started-at="2019-05-20T15:07:14Z" finished-at="2019-05-20T15:07:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruebauno -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="222" started-at="2019-05-17T17:03:09Z" finished-at="2019-05-17T17:03:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Testing@13969fbe]" name="tearDown" is-config="true" duration-ms="402" started-at="2019-05-20T15:07:25Z" finished-at="2019-05-20T15:07:25Z">
           <params>
             <param index="0">
               <value>
